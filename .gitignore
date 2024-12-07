@@ -1,0 +1,64 @@
+# Local Netlify folder
+.netlify
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+
+# Archivos de configuración sensibles
+.env
+.env.local
+.env.*.local
+
+# Archivos de logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Archivos temporales y del sistema operativo
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.swn
+
+# Cachés y configuraciones del editor
+.vscode/
+.idea/
+*.iml
+*.sublime-workspace
+*.sublime-project
+
+# Archivos generados por vite
+*.cache
+.vite/
+
+# Tailwind CSS generado
+*.css.map
+
+# Archivos relacionados con ESLint
+.eslintcache
